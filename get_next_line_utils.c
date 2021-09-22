@@ -1,6 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: abel-haj <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/09/22 18:12:50 by abel-haj          #+#    #+#             */
+/*   Updated: 2021/09/22 18:14:29 by abel-haj         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "get_next_line.h"
 
-size_t		ft_strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
 	size_t	i;
 
@@ -39,9 +51,9 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	return (new_string);
 }
 
-size_t		ft_strindof(const char *s, char c)
+size_t	ft_strindof(const char *s, char c)
 {
-	size_t i;
+	size_t	i;
 
 	i = 0;
 	while (s[i])
@@ -53,7 +65,7 @@ size_t		ft_strindof(const char *s, char c)
 	return (-1);
 }
 
-char		*ft_strdup(const char *s1)
+char	*ft_strdup(const char *s1)
 {
 	size_t	i;
 	char	*str_cpy;
